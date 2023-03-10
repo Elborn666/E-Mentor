@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*=================== Обнуление стилей ======================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*=================== Общие стили ======================*/
+body {
+  font-family: "Raleway";
+  background-color: #FDFDFD;
+  color: #353A5A;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 120px 15px;
+}
+
+.button-orange {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  background-color: #FA9F42;
+  border-radius: 0px 20px;
+}
+
+.button-green {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  background-color: #10B582;
+  border-radius: 0px 20px;
+}
+
+.title-dark {
+  color: #353A5A;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1px;
+}
+
+.title-light {
+  color: #FDFDFD;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.2px;
+}
+
+.header {
+  background-color: #10B582;
+}
+
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.header__list {
+  padding: 40px 0px 64px 0px;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.header__link {
+  color: #FDFDFD;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.header__link-active {
+  color: #FDFDFD;
+  font-weight: 500;
+  line-height: 1;
+}/*# sourceMappingURL=main.css.map */

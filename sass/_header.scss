@@ -1,0 +1,30 @@
+.header {
+    background-color: $color-green;
+}
+.header__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.header__body {
+}
+.header__nav {
+}
+.header__list {
+    padding: 40px 0px 64px 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.header__item {
+}
+.header__link {
+    color: $color-bg;
+    font-weight: 500;
+    line-height: 1;
+}
+.header__link-active {
+    color: $color-bg;
+    font-weight: 500;
+    line-height: 1;
+}
