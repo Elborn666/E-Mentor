@@ -14,18 +14,22 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
+    color: #FDFDFD;
     
     background-color: #FA9F42;
     border-radius: 0px 20px;
+    border: #FA9F42;
 }
 .button-green {
     font-family: 'Raleway';
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
+    color: #FDFDFD;
 
     background-color: #10B582;
     border-radius: 0px 20px;
+    border: #10B582;
 }
 .title-dark {
     color: #353A5A;
@@ -38,4 +42,8 @@ body {
     font-size: 58px;
     font-weight: 500;
     line-height: 1.2px;
+}
+.active {
+    padding-bottom: 8px;
+    border-bottom: 2px dashed #FA9F42;
 }

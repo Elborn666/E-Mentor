@@ -42,8 +42,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  color: #FDFDFD;
   background-color: #FA9F42;
   border-radius: 0px 20px;
+  border: #FA9F42;
 }
 
 .button-green {
@@ -51,8 +53,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
+  color: #FDFDFD;
   background-color: #10B582;
   border-radius: 0px 20px;
+  border: #10B582;
 }
 
 .title-dark {
@@ -67,6 +71,11 @@ body {
   font-size: 58px;
   font-weight: 500;
   line-height: 1.2px;
+}
+
+.active {
+  padding-bottom: 8px;
+  border-bottom: 2px dashed #FA9F42;
 }
 
 .header {
@@ -91,9 +100,103 @@ body {
   font-weight: 500;
   line-height: 1;
 }
+.header__link:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px dashed #FA9F42;
+}
 
-.header__link-active {
-  color: #FDFDFD;
+.hero {
+  background-color: #10B582;
+}
+
+.hero__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px 120px 15px;
+}
+
+.hero__body {
+  display: flex;
+}
+
+.hero__social {
+  margin-bottom: 104px;
+}
+
+.hero__items {
+  margin-bottom: 30px;
+}
+.hero__items:last-child {
+  margin-bottom: 0px;
+}
+
+.hero__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.hero__content {
+  width: 542px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+  margin-bottom: 40px;
+}
+
+.hero__logo-icon {
+  width: 28px;
+  height: 30px;
+}
+
+.hero__logo-text {
+  padding-left: 10px;
+  width: 130px;
+  height: 22px;
+}
+
+.hero__title {
+  font-size: 58px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.2;
+  color: #FDFDFD;
+  margin-bottom: 20px;
+}
+
+.hero__subtitle {
+  color: #FDFDFD;
+  margin-bottom: 50px;
+}
+
+.hero__button {
+  padding: 20px 47px;
+}
+
+.hero__navigation {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+.hero__navigation::before {
+  content: "";
+  background-image: url("/icon/down-arrow.svg");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.hero__navigation-text {
+  font-size: 14px;
+  color: #FDFDFD;
+  transform: rotate(-90deg);
+}
+
+.hero__arrow {
+  width: 16px;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */

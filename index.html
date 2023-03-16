@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css">
     <title>E-mentor</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
@@ -16,7 +19,7 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item"><a href="#" class="header__link">О нас</a></li>
-                        <li class="header__item"><a href="#" class="header__link-active">Платформа</a></li>
+                        <li class="header__item"><a href="#" class="header__link active">Платформа</a></li>
                         <li class="header__item"><a href="#" class="header__link">Курсы</a></li>
                         <li class="header__item"><a href="#" class="header__link">Лекции</a></li>
                         <li class="header__item"><a href="#" class="header__link">Тарифы</a></li>
@@ -28,9 +31,64 @@
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__body">
+                    <div class="hero__box-left">
+                        <ul class="hero__social">
+                            <li class="hero__items"><a href="https://uk-ua.facebook.com/" class="hero__link">
+                                    <svg class="hero__icon">
+                                        <use href="./icon/sprite.svg#icon-fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="hero__items"><a href="https://vk.com/" class="hero__link">
+                                    <svg class="hero__icon">
+                                        <use href="./icon/sprite.svg#icon-vk"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="hero__items"><a href="https://www.instagram.com/" class="hero__link">
+                                    <svg class="hero__icon">
+                                        <use href="./icon/sprite.svg#icon-inst"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <img src="./img/hero/girlwithhat.png" alt="girl with hat" class="hero__img-bottom">
+                    </div>
+                    <div class="hero__content">
+                        <div class="hero__box-logo">
+                            <svg class="hero__logo-icon">
+                                <use href="./icon/sprite.svg#icon-logo"></use>
+                            </svg>
+                            <svg class="hero__logo-text">
+                                <use href="./icon/sprite.svg#icon-e-mentor"></use>
+                            </svg>
+                        </div>
+                        <h1 class="hero__title">Образовательная
+                            онлайн-платформа</h1>
+                        <p class="hero__subtitle">Курсы и видео-лекции по дизайну, копирайтингу,
+                            SMM, таргету и многим другим направлениям</p>
+                        <button class="hero__button button-orange" type="submit">Все направления</button>
+                    </div>
+                    <div class="hero__box-right">
+                        <img src="./img/hero/girlwithnote.png" alt="girl with note" class="hero__img-top">
+                        <nav class="hero__navigation">Листайте вниз
+                            <!-- <p class="hero__navigation-text">Листайте вниз</p>
+                            <svg class="hero__arrow">
+                                <use href="./icon/sprite.svg#icon-down-arrow"></use>
+                            </svg> -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer></footer>
-    
+
 </body>
+
 </html>
