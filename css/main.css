@@ -59,20 +59,6 @@ body {
   border: #10B582;
 }
 
-.title-dark {
-  color: #353A5A;
-  font-size: 58px;
-  font-weight: 500;
-  line-height: 1px;
-}
-
-.title-light {
-  color: #FDFDFD;
-  font-size: 58px;
-  font-weight: 500;
-  line-height: 1.2px;
-}
-
 .active {
   padding-bottom: 8px;
   border-bottom: 2px dashed #FA9F42;
@@ -130,6 +116,10 @@ body {
   margin-bottom: 0px;
 }
 
+.hero__link {
+  position: relative;
+}
+
 .hero__icon {
   width: 22px;
   height: 22px;
@@ -175,28 +165,153 @@ body {
 
 .hero__button {
   padding: 20px 47px;
+  cursor: pointer;
+}
+
+.hero__box-right {
+  padding-top: 30px;
+}
+
+.hero__img-top {
+  margin-bottom: 101px;
 }
 
 .hero__navigation {
+  position: relative;
+  right: -110px;
+  bottom: 0;
   display: flex;
   align-items: center;
-  transform: rotate(-90deg);
-}
-.hero__navigation::before {
-  content: "";
-  background-image: url("/icon/down-arrow.svg");
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
-}
-
-.hero__navigation-text {
+  gap: 15px;
   font-size: 14px;
+  line-height: 1;
   color: #FDFDFD;
   transform: rotate(-90deg);
+  cursor: pointer;
 }
 
 .hero__arrow {
   width: 16px;
   height: 20px;
+  transform: rotate(90deg);
+}
+
+.ourstatistic__list {
+  display: flex;
+  gap: 30px;
+}
+
+.ourstatistic__item {
+  text-align: center;
+}
+
+.ourstatistic__title {
+  margin-bottom: 15px;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1;
+  color: #10B582;
+}
+
+.ourstatistic__subtitle {
+  width: 274px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.study__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px 120px 15px;
+}
+
+.study__body {
+  display: flex;
+}
+
+.study__content {
+  width: 48%;
+  margin-top: 65px;
+  margin-right: 100px;
+}
+
+.study__title {
+  margin-bottom: 20px;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.study__text-more {
+  margin-bottom: 20px;
+}
+
+.study__text-little {
+  margin-bottom: 50px;
+}
+
+.study__button {
+  padding: 20px 38px;
+  cursor: pointer;
+}
+
+.study__foto-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 55%;
+}
+
+.study__item {
+  width: 170px;
+}
+
+.study__subtitle {
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.choise {
+  background-color: #10B582;
+}
+
+.choise__body {
+  display: flex;
+}
+
+.choise__img {
+  margin-top: 30px;
+}
+
+.choise__content {
+  margin-left: 130px;
+  color: #FDFDFD;
+}
+
+.choise__title {
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.choise__text {
+  margin-bottom: 50px;
+}
+
+.choise__button {
+  padding: 20px 74px;
+  cursor: pointer;
+}
+
+.popular__title {
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.popular__button {
+  padding: 20px 74px;
 }/*# sourceMappingURL=main.css.map */

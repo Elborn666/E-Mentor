@@ -1,0 +1,20 @@
+.ourstatistic__list {
+    display: flex;
+    gap: 30px;
+}
+.ourstatistic__item {
+    text-align: center;
+}
+.ourstatistic__title {
+    margin-bottom: 15px;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+    color: $color-green;
+}
+.ourstatistic__subtitle {
+    width: 274px;
+    font-size: 14px;
+    line-height: 1.2;
+}

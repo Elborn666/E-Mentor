@@ -21,6 +21,7 @@
     }
 }
 .hero__link {
+    position: relative;
 }
 .hero__icon {
     width: 22px;
@@ -62,30 +63,31 @@
 }
 .hero__button {
     padding: 20px 47px;
+    cursor: pointer;
 }
 .hero__box-right {
+    padding-top: 30px;
 }
 .hero__img-top {
+    margin-bottom: 101px;
 }
 .hero__navigation {
+    position: relative;
+    right: -110px;
+    bottom: 0;
+
     display: flex;
     align-items: center;
-    transform: rotate(-90deg);
-    &::before {
-        content: "";
-        background-image: url('/icon/down-arrow.svg');
-        background-repeat: no-repeat;
-        width: 30px;
-        height: 30px;
-        
-    }
-}
-.hero__navigation-text {
+    gap: 15px;
+
     font-size: 14px;
+    line-height: 1;
     color: $color-bg;
     transform: rotate(-90deg);
+    cursor: pointer;
 }
 .hero__arrow {
     width: 16px;
     height: 20px;
+    transform: rotate(90deg);
 }

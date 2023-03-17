@@ -1,0 +1,47 @@
+.study__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px 120px 15px;
+}
+.study__body {
+    display: flex;
+}
+.study__content {
+    width: 48%;
+    margin-top: 65px;
+    margin-right: 100px;
+}
+.study__title {
+    margin-bottom: 20px;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+}
+.study__text-more {
+    margin-bottom: 20px;
+}
+.study__text-little {
+    margin-bottom: 50px;
+}
+.study__button {
+    padding: 20px 38px;
+    cursor: pointer;
+}
+.study__foto-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    width: 55%;
+}
+.study__item {
+    width: 170px;
+}
+.study__subtitle {
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-top: 15px;
+}

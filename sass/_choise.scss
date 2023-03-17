@@ -1,0 +1,26 @@
+.choise {
+    background-color: $color-green;
+}
+.choise__body {
+    display: flex;
+}
+.choise__img {
+    margin-top: 30px;
+}
+.choise__content {
+    margin-left: 130px;
+    color: $color-bg;
+}
+.choise__title {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.choise__text {
+    margin-bottom: 50px;
+}
+.choise__button {
+    padding: 20px 74px;
+    cursor: pointer;
+}
