@@ -1,12 +1,21 @@
 .footer {
 }
 .footer__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 120px 15px 30px 15px;
 }
 .footer__body {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 80px;
 }
 .footer__content {
+    margin-right: 100px;
 }
 .footer__logo {
+    margin-bottom: 27px;
 }
 .footer__icon-logo {
     width: 28px;
@@ -18,41 +27,80 @@
     fill: $color-text;
 }
 .footer__text {
+    margin-bottom: 47px;
+
+    font-size: 14px;
+    line-height: 1.2;
 }
 .footer__social {
+    display: flex;
+    column-gap: 25px;
 }
 .footer__item {
+}
+.footer__item-icon {
     width: 28px;
     height: 30px;
     fill: $color-text;
 }
-.footer__item-icon {
-}
 .footer__list {
+    display: flex;
+    margin-right: 68px;
+    column-gap: 90px;
 }
 .footer__list-item {
 }
+.last {
+    width: 132px;
+}
 .footer__list-title {
+    margin-bottom: 31px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
 }
 .footer__list-link {
 }
 .footer__list-subtitle {
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: $color-text;
 }
 .footer__questions {
 }
 .footer__questions-title {
+    margin-bottom: 30px;
+    width: 182px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
 }
 .footer__questions-subtitle {
 }
 .footer__questions-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: $color-text;
 }
 .footer__bottom {
+    display: flex;
+
+    font-size: 14px;
+    line-height: 1;
 }
 .footer__bottom-copy {
+    margin-right: auto;
 }
 .footer__bottom-link {
+    color: $color-text;
 }
 .footer__bottom-policy {
+    margin-right: 30px;
 }
 .footer__bottom-public {
 }

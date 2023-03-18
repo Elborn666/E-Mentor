@@ -24,8 +24,10 @@
     position: relative;
 }
 .hero__icon {
+    display: block;
     width: 22px;
     height: 22px;
+    fill: $color-bg;
 }
 .hero__img-bottom {
 }
