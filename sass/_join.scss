@@ -1,0 +1,31 @@
+.join {
+    background-image: url('/img/join/note.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;
+}
+.join__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.join__content {
+    padding: 120px 0px;
+    margin-left: auto;
+    width: 508px;
+}
+.join__title {
+    margin-bottom: 20px;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.join__subtitle {
+    margin-bottom: 50px;
+}
+.join__button {
+    padding: 20px 56px;
+}

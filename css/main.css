@@ -46,6 +46,7 @@ body {
   background-color: #FA9F42;
   border-radius: 0px 20px;
   border: #FA9F42;
+  cursor: pointer;
 }
 
 .button-green {
@@ -57,6 +58,7 @@ body {
   background-color: #10B582;
   border-radius: 0px 20px;
   border: #10B582;
+  cursor: pointer;
 }
 
 .active {
@@ -148,6 +150,7 @@ body {
   padding-left: 10px;
   width: 130px;
   height: 22px;
+  fill: #FDFDFD;
 }
 
 .hero__title {
@@ -165,7 +168,6 @@ body {
 
 .hero__button {
   padding: 20px 47px;
-  cursor: pointer;
 }
 
 .hero__box-right {
@@ -252,7 +254,6 @@ body {
 
 .study__button {
   padding: 20px 38px;
-  cursor: pointer;
 }
 
 .study__foto-list {
@@ -303,15 +304,86 @@ body {
 
 .choise__button {
   padding: 20px 74px;
-  cursor: pointer;
 }
 
 .popular__title {
+  margin-bottom: 60px;
   font-size: 58px;
   font-weight: 500;
   line-height: 1;
+  text-align: center;
+}
+
+.popular__list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.popular__item {
+  margin-bottom: 60px;
+}
+
+.popular__img {
+  width: 270px;
+}
+
+.popular__box-button {
+  text-align: center;
 }
 
 .popular__button {
   padding: 20px 74px;
+}
+
+.join {
+  background-image: url("/img/join/note.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.join__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.join__content {
+  padding: 120px 0px;
+  margin-left: auto;
+  width: 508px;
+}
+
+.join__title {
+  margin-bottom: 20px;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.join__subtitle {
+  margin-bottom: 50px;
+}
+
+.join__button {
+  padding: 20px 56px;
+}
+
+.footer__icon-logo {
+  width: 28px;
+  height: 22px;
+}
+
+.footer__icon-text {
+  width: 130px;
+  height: 22px;
+  fill: #353A5A;
+}
+
+.footer__item {
+  width: 28px;
+  height: 30px;
+  fill: #353A5A;
 }/*# sourceMappingURL=main.css.map */

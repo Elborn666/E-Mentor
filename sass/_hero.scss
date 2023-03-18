@@ -49,6 +49,7 @@
     padding-left: 10px;
     width: 130px;
     height: 22px;
+    fill: $color-bg;
 }
 .hero__title {
     font-size: 58px;
@@ -63,7 +64,6 @@
 }
 .hero__button {
     padding: 20px 47px;
-    cursor: pointer;
 }
 .hero__box-right {
     padding-top: 30px;

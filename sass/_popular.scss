@@ -1,19 +1,23 @@
-.popular {
-}
-.popular__container {
-}
-.popular__body {
-}
 .popular__title {
+    margin-bottom: 60px;
+
     font-size: 58px;
     font-weight: 500;
     line-height: 1;
+    text-align: center;
 }
 .popular__list {
+    display: flex;
+    column-gap: 30px;
 }
 .popular__item {
+    margin-bottom: 60px;
 }
 .popular__img {
+    width: 270px;
+}
+.popular__box-button {
+    text-align: center;
 }
 .popular__button {
     padding: 20px 74px;
