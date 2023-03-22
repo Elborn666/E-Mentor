@@ -86,6 +86,7 @@
     font-weight: 400;
     line-height: 16px;
     color: $color-text;
+    border-bottom: 1px solid $color-text;
 }
 .footer__bottom {
     display: flex;
