@@ -1,0 +1,42 @@
+.header-courses__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.header-courses__body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 58px;
+}
+.header-courses__logo-link {
+    display: flex;
+    align-items: center;
+}
+.header-courses__logo-icon {
+    width: 28px;
+    height: 30px;
+}
+.header-courses__logo-text {
+    padding-left: 10px;
+    width: 130px;
+    height: 22px;
+    fill: $color-text;
+}
+.header-courses__nav {
+    margin-left: auto;
+}
+.header-courses__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+.header-courses__link {
+    color: $color-text;
+    font-weight: 500;
+    line-height: 1;
+    &:hover{
+        padding-bottom: 8px;
+        border-bottom: 2px dashed #FA9F42;
+    }
+}

@@ -1,0 +1,25 @@
+.statistic__container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px 120px 15px;
+}
+.statistic__list {
+    display: flex;
+    gap: 30px;
+}
+.statistic__item {
+    text-align: center;
+}
+.statistic__title {
+    margin-bottom: 15px;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+    color: $color-green;
+}
+.statistic__subtitle {
+    width: 274px;
+    font-size: 14px;
+    line-height: 1.2;
+}

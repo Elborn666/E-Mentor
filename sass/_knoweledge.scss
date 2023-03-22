@@ -1,0 +1,26 @@
+.knoweledge {
+    background-color: $color-green;
+}
+.knoweledge__body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.knoweledge__content {
+    margin-right: 90px;
+    color: $color-bg;
+}
+.knoweledge__title {
+    margin-bottom: 20px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.knoweledge__text {
+    margin-bottom: 50px;
+    width: 478px;
+}
+.knoweledge__button {
+    padding: 20px 68px;
+}
