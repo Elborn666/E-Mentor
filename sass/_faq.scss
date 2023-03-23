@@ -1,0 +1,21 @@
+.faq__title {
+    margin-bottom: 90px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+.faq__item {
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+.faq__subtitle {
+    padding: 30px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+}

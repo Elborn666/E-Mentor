@@ -4,6 +4,7 @@
     font-size: 58px;
     font-weight: 500;
     line-height: 1;
+    text-align: center;
 }
 .oncourses__list {
     margin-bottom: 80px;
@@ -12,16 +13,30 @@
     column-gap: 30px;
 }
 .oncourses__item {
+    padding: 25px 15px;
+    width: 270px;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+}
+.oncourses__box-icon {
+    display: flex;
+}
+.oncourses__icon {
+    width: 18px;
+    height: 18px;
 }
 .oncourses__list-title {
     margin-bottom: 15px;
+    margin-left: 8px;
     font-weight: 500;
     line-height: 1;
 }
 .oncourses__subtitle {
-    padding: 0px 15px 25px 15px;
     font-size: 14px;
     line-height: 1.2;
+}
+.oncourses__box-button {
+    text-align: center;
 }
 .oncourses__button {
     padding: 20px 46px;
