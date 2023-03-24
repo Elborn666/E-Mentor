@@ -27,6 +27,21 @@
     height: 22px;
     fill: $color-bg;
 }
+.hero__box-img-bottom {
+    position: relative;
+}
+.hero__img-bottom {
+    position: relative;
+    z-index: 1000;
+}
+.hero__img-dashlinedown {
+    position: absolute;
+    z-index: 10;
+    top: -30px;
+    right: -30px;
+    width: 240px;
+    height: 300px;
+}
 .hero__content {
     width: 542px;
     margin: 0 auto;
@@ -68,10 +83,21 @@
     padding: 20px 47px;
 }
 .hero__box-right {
+    position: relative;
     padding-top: 30px;
 }
 .hero__img-top {
     margin-bottom: 101px;
+    position: relative; 
+    z-index: 100;
+}
+.hero__img-dashline-top {
+    position: absolute;
+    z-index: 10;
+    width: 240px;
+    height: 300px;
+    top: 0px;
+    right: 30px;
 }
 .hero__navigation {
     position: relative;

@@ -6,6 +6,19 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.knoweledge__img {
+    position: relative;
+    z-index: 100;
+}
+.knoweledge__img-dashline {
+    position: absolute;
+    z-index: 10;
+    width: 540px;
+    height: 286px;
+    top: -20px;
+    right: 35px;
 }
 .knoweledge__content {
     margin-right: 90px;

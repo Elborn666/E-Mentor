@@ -3,9 +3,20 @@
 }
 .choise__body {
     display: flex;
+    position: relative;
 }
 .choise__img {
+    position: relative;
+    z-index: 100;
     margin-top: 30px;
+}
+.choise__img-dashline {
+    position: absolute;
+    z-index: 10;
+    width: 470px;
+    height: 332px;
+    top: 0px;
+    left: 30px;
 }
 .choise__content {
     margin-left: 130px;
