@@ -19,4 +19,7 @@ a {
    padding: 0;
    margin: 0;
 }
+button:active, button:focus { outline: none; }
+.header__link:active, .header__link:focus { outline: none; }
+.header-courses__link:active, .header-courses__link:focus { outline: none; }
 /*=================== Общие стили ======================*/
