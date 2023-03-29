@@ -22,7 +22,8 @@ body {
     border-radius: 0px 20px;
     border: #FA9F42;
     cursor: pointer;
-    &:hover {
+    &:hover,
+    &:focus {
         background: rgba(0,0,0,0);
         color: #FDFDFD;
         box-shadow: inset 0 0 0 3px #FA9F42;
@@ -40,7 +41,8 @@ body {
     border-radius: 0px 20px;
     border: #10B582;
     cursor: pointer;
-    &:hover {
+    &:hover,
+    &:focus {
         background: rgba(0,0,0,0);
         color: #353A5A;
         box-shadow: inset 0 0 0 3px #10B582;
