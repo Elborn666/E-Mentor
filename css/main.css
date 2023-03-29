@@ -281,11 +281,13 @@ body {
 
 .hero__navigation {
   position: relative;
-  right: -110px;
+  right: -165px;
   bottom: 0;
   display: flex;
   align-items: center;
   gap: 15px;
+  background-color: inherit;
+  border: inherit;
   font-size: 14px;
   line-height: 1;
   color: #FDFDFD;
