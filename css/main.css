@@ -369,6 +369,9 @@ body {
   }
 }
 @media screen and (max-width: 767.98px) {
+  .hero__container {
+    padding-bottom: 60px;
+  }
   .hero__title {
     font-size: 28px;
   }
@@ -377,6 +380,9 @@ body {
   }
 }
 @media screen and (max-width: 479.98px) {
+  .hero__container {
+    padding-bottom: 30px;
+  }
   .hero__social {
     display: none;
   }
