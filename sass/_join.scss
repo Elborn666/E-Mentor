@@ -2,14 +2,14 @@
     background-image: url('../img/join/note.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 1440px;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
     margin: 0 auto;
 }
 .join__container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0px 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .join__content {
     padding: 120px 0px;
@@ -31,5 +31,28 @@
     &:hover,
     &:focus{
         color: #353A5A;
+    }
+}
+@media screen and (max-width: 1199.98px){
+    .join__title {    
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .join__container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .join__title {    
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .join__container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .join__title {    
+        font-size: 28px;
     }
 }

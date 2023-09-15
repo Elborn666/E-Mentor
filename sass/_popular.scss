@@ -21,10 +21,6 @@
     padding: 20px 74px;
 }
 @media screen and (max-width: 1199.98px){
-    .popular__container{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
     .popular__list {
         flex-wrap: wrap;
         justify-content: center;
@@ -36,8 +32,8 @@
 }
 @media screen and (max-width: 991.98px){
     .popular__container{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .popular__title {    
         font-size: 38px;
