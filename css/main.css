@@ -46,9 +46,12 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .button-orange {
@@ -96,14 +99,19 @@ body {
   background-color: #10B582;
 }
 
+.header__body {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  padding: 40px 0px 40px 0px;
+}
+
 .header__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0px 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .header__list {
-  padding: 40px 0px 64px 0px;
   display: flex;
   justify-content: center;
   column-gap: 40px;
@@ -119,6 +127,33 @@ body {
   border-bottom: 2px dashed #FA9F42;
 }
 
+.header__burger-icon {
+  display: none;
+  width: 40px;
+  height: 40px;
+  fill: #353A5A;
+}
+
+@media screen and (max-width: 991.98px) {
+  .header__body {
+    column-gap: 30px;
+    padding: 20px 0px 20px 0px;
+  }
+  .header__list {
+    column-gap: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .header__body {
+    justify-content: space-around;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__burger-icon {
+    display: block;
+  }
+}
 .header-courses__container {
   width: 1200px;
   margin: 0 auto;
@@ -174,7 +209,7 @@ body {
 }
 
 .hero__container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px 120px 15px;
 }
