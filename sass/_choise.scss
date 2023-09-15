@@ -34,3 +34,52 @@
 .choise__button {
     padding: 20px 74px;
 }
+@media screen and (max-width: 1199.98px){
+    .choise__title {    
+        font-size: 48px;
+    }
+    .choise__content {
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .choise__container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .choise__body {
+        flex-direction: column-reverse;
+    }
+    .choise__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .choise__title {    
+        font-size: 38px;
+    }
+    .choise__text {
+        margin-bottom: 20px;
+    }
+    .choise__img-dashline {
+        display: none;
+    }
+    .choise__img {
+        margin-top: 0px;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .choise__container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .choise__title {    
+        font-size: 28px;
+    }
+}

@@ -2,10 +2,6 @@
     display: flex;
 }
 .study__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 48%;
     margin-right: 100px;
 }
@@ -74,6 +70,10 @@
         flex-direction: column;
     }
     .study__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         margin-bottom: 20px;
     }
