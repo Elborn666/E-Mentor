@@ -1,7 +1,5 @@
 .footer__container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 120px 15px 30px 15px;
+    padding-bottom: 30px;
 }
 .footer__body {
     display: flex;
@@ -44,19 +42,27 @@
     margin-right: 68px;
     column-gap: 90px;
 }
+.footer__list-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 .last {
     width: 132px;
 }
 .footer__list-title {
-    margin-bottom: 31px;
+    margin-bottom: 11px;
 
     font-size: 16px;
     font-weight: 500;
     line-height: 1;
 }
+.footer__list-link {
+    &:hover {
+        text-decoration: underline;
+    }
+}
 .footer__list-subtitle {
-    margin-bottom: 20px;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
@@ -90,4 +96,51 @@
 }
 .footer__bottom-policy {
     margin-right: 30px;
+}
+@media screen and (max-width: 1199.98px){
+    .footer__content {
+        margin-right: 50px;
+    }
+    .footer__list {
+        margin-right: 40px;
+        column-gap: 45px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .footer__container{
+        padding-top: 60px;
+    }
+    .footer__body {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 40px;
+    }
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+    .footer__text {
+        margin-bottom: 20px;
+    }
+    .footer__questions-title {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .footer__container{
+        padding-top: 30px;
+    }
+    .footer__body {
+        margin-bottom: 40px;
+    }
+    .footer__bottom {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 479.98px){
+    .footer__list {
+        flex-wrap: wrap;
+        margin-right: 0px;
+        gap: 30px;
+    }
 }
