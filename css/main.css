@@ -410,6 +410,36 @@ body {
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .ourstatistic__list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ourstatistic__title {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .ourstatistic__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .ourstatistic__title {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .ourstatistic__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ourstatistic__list {
+    gap: 15px;
+  }
+  .ourstatistic__title {
+    font-size: 28px;
+  }
+}
 .study__container {
   width: 1200px;
   margin: 0 auto;
