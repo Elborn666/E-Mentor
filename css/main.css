@@ -1078,9 +1078,7 @@ body {
   }
 }
 .statistic__container {
-  width: 1170px;
-  margin: 0 auto;
-  padding: 0px 15px 120px 15px;
+  padding-top: 0px;
 }
 
 .statistic__list {
@@ -1101,11 +1099,37 @@ body {
 }
 
 .statistic__subtitle {
-  width: 274px;
+  max-width: 274px;
   font-size: 14px;
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .statistic__title {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .statistic__container {
+    padding-bottom: 60px;
+  }
+  .statistic__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .statistic__title {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .statistic__container {
+    padding-bottom: 30px;
+  }
+  .statistic__title {
+    font-size: 28px;
+  }
+}
 .knoweledge {
   background-color: #10B582;
 }
