@@ -111,6 +111,10 @@ body {
   padding-bottom: 0px;
 }
 
+.header__nav {
+  margin-left: auto;
+}
+
 .header__list {
   display: flex;
   justify-content: center;
@@ -571,6 +575,9 @@ body {
 .choise__img {
   position: relative;
   z-index: 100;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   margin-top: 30px;
 }
 
@@ -638,9 +645,6 @@ body {
   }
   .choise__img {
     margin-top: 0px;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -1145,6 +1149,9 @@ body {
 .knoweledge__img {
   position: relative;
   z-index: 100;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .knoweledge__img-dashline {
@@ -1170,13 +1177,58 @@ body {
 
 .knoweledge__text {
   margin-bottom: 50px;
-  width: 478px;
+  max-width: 478px;
 }
 
 .knoweledge__button {
   padding: 20px 68px;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .knoweledge__title {
+    font-size: 48px;
+  }
+  .knoweledge__content {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .knoweledge__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .knoweledge__body {
+    flex-direction: column-reverse;
+  }
+  .knoweledge__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .knoweledge__title {
+    font-size: 38px;
+  }
+  .knoweledge__text {
+    margin-bottom: 20px;
+  }
+  .knoweledge__img {
+    margin-top: 20px;
+  }
+  .knoweledge__img-dashline {
+    display: none;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .knoweledge__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .knoweledge__title {
+    font-size: 28px;
+  }
+}
 .oncourses__title {
   margin-bottom: 85px;
   font-size: 58px;
