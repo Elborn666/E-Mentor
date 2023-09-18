@@ -1,13 +1,12 @@
 .header-courses__container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0px 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .header-courses__body {
     display: flex;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 58px;
+    padding-bottom: 40px;
 }
 .header-courses__logo-link {
     display: flex;
@@ -39,5 +38,31 @@
     &:focus{
         padding-bottom: 8px;
         border-bottom: 2px dashed #FA9F42;
+    }
+}
+.header-courses__burger-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    fill: $color-text;
+}
+@media screen and (max-width: 991.98px){
+    .header-courses__body {
+        column-gap: 30px;
+        padding: 20px 0px 20px 0px;
+    }
+    .header-courses__list {
+        column-gap: 20px;
+    }
+}
+@media screen and (max-width: 767.98px){
+    .header-courses__body {
+        justify-content: space-around;
+    }
+    .header-courses__nav {
+        display: none;
+    }
+    .header-courses__burger-icon {
+        display: block;
     }
 }
